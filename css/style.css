@@ -45,8 +45,6 @@ h1, h2, h3 {
 
 #pulse-logo {
     position: absolute;
-    display: flex;
-    align-items: center;
    top: 2%;
     width: 200px;
     height: auto;
@@ -55,8 +53,6 @@ h1, h2, h3 {
 .search-tools {
     display: flex;
     align-items: flex-end;
-    right: 30px;
-    top: 50%; 
   position: absolute;
   right: 30px;
   top: 50%;
@@ -156,7 +152,7 @@ transform: scale(1.03);
   font-weight: 800;
 }
 
-.accent-tekst {
+.accent-text {
   color: var(--green);
   font-weight: 800;
 }
@@ -270,7 +266,7 @@ transform: scale(1.03);
 
 /* ---------- VENSTRE KOLONNE ---------- */
 
-.ur-features {
+.watch-features {
   background-color: var(--cream);
   padding: 90px 60px;
   display: grid;
@@ -280,7 +276,7 @@ transform: scale(1.03);
 
 }
 
-.ur-venstre header{ 
+.watch-left header{ 
 margin-bottom: 30px;}
 
 
@@ -307,7 +303,7 @@ margin-bottom: 30px;}
 }
 
 /* ---------- BILLEDET AF URENE ---------- */
-.ur-billede img {
+.watch-image img {
  width: 100%;
   max-width: 680px;
   display: block;
@@ -318,13 +314,13 @@ margin-bottom: 30px;}
 
 /* ---------- FEATURE-LISTE  ---------- */
 
-.feature-liste {
+.feature-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.feature-liste li {
+.feature-list li {
   font-size: 15px;
   padding: 18px 0;
   border-bottom: 1px solid rgba(17, 17, 17, 0.1);
@@ -332,22 +328,22 @@ margin-bottom: 30px;}
   color: var(--grey);
  }
 
-.feature-liste li:first-child {
+.feature-list li:first-child {
   border-top: 1px solid rgba(17, 17, 17, 0.1);
 }
 
-.feature-liste li h4 {
+.feature-list li h4 {
   font-size: 16px;
   margin: 0 0 4px 0;
   color: var(--black);
 }
 
 /* ---------- "VIS FLERE DETALJER"  ---------- */
-.flere-features {
+.more-features {
   margin-top: 10px;
 }
 
-.flere-features summary {
+.more-features summary {
   cursor: pointer;
   font-weight: 700;
   color: var(--green);
@@ -356,25 +352,25 @@ margin-bottom: 30px;}
   padding: 16px 0;
 }
 
-.flere-features summary::before {
+.more-features summary::before {
   content: "+";
 }
 
-.flere-features[open] summary::before {
+.more-features[open] summary::before {
   content: "– ";
 }
 
-.flere-features .feature-liste li {
+.more-features .feature-list li {
   font-size: 14px;
   margin-top: 15px;
 }
 
-.flere-features .feature-liste li h4 {
+.more-features .feature-list li h4 {
   font-size: 14px; 
 }
 
 /* ---------- "KØB URET I DAG..." OVERSKRIFT ---------- */
-.kob-nu-overskrift {
+.buy-now-heading {
   font-size: 22px;
   margin-top: 20px;
   margin-bottom: 15px;
@@ -398,14 +394,14 @@ margin: 0 auto 5% auto;
 }
 /* ---------- VENSTRE SIDE: tekst ---------- */
 
-.app-connect-tekst {
+.app-connect-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
 /* bluetooth-ikonet */
-.bluetooth-tekst {
+.bluetooth-text {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -434,11 +430,11 @@ margin: 0 auto 5% auto;
   max-width: 380px;
 }
 
-.download-knap:hover {
+.download-button-app:hover {
 text-decoration: underline;
 }
 
-.download-knap {
+.download-button-app {
   display: inline-block;
   background-color: var(--cream);
   color: var(--green);
@@ -613,9 +609,6 @@ display: grid;
     text-decoration: underline;
 }
 
-/* -------------------- */
-/* MIDTEN */
-/* -------------------- */
 
 /* -------------------- */
 /* HØJRE SIDE */
@@ -722,7 +715,7 @@ height: auto;
     display: flex;
     align-items: center;
     gap: 10px;
-    color: var(--Darkgrey);
+    color: var(--darkgrey);
 }
 
 .download-link {
@@ -772,8 +765,4 @@ text-decoration: none;
 .footer-bottom a:hover {
     text-decoration: underline;
        color: var(--green)
-}
-
-body{
-margin: 0;
 }
