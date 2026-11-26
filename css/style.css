@@ -177,13 +177,6 @@ transform: scale(1.03);
   font-weight: 800;
 }
 
-.hero-content h1,
-.hero-content .pulse-text,
-.hero-content .price {
-  
-  font-weight: bold;
-}
-
 /* Billedet med de tre ure */
 .hero-watches {
   position: absolute;
@@ -203,21 +196,19 @@ transform: scale(1.03);
 /*CTA KNAP*/
 
 #cta-button {
-  background:linear-gradient(90deg, var(--gradientgreen1) 0%, var(--gradientgreen2) 49.52%, var(--gradientgreen1) 100%);
-  border: none;
-  border-radius: 20px;
-  padding: 0; 
-  margin-top: 20px;
-}
-
-
-#cta-button a {
     display: inline-block;
-    color: white; 
-    text-decoration:none;
-    padding: 18px 40px ;
+    background: linear-gradient(90deg, var(--gradientgreen1) 0%, var(--gradientgreen2) 49.52%, var(--gradientgreen1) 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 18px 40px;
+    margin-top: 20px;
     font-weight: 700;
     font-size: 20px;
+}
+
+#cta-button:hover {
+    filter: brightness(1.1);
 }
 
 
@@ -231,9 +222,8 @@ transform: scale(1.03);
     grid-template-columns: repeat(4, 1fr); 
     justify-content: space-around;
     padding: 0;
-    margin: 0 0 60px 0;
+    margin: 0 0 2px 0;
     gap: 30px;
-    margin-bottom: 2px;
     border-top: 2px solid rgba(45, 95, 61, 0.15);
     border-bottom: 2px solid rgba(45, 95, 61, 0.15);
 }
@@ -314,7 +304,6 @@ margin-bottom: 30px;}
   margin-bottom: 150px;
   max-width: 400px;
   color: var(--grey);
-  text-decoration:none;
 }
 
 /* ---------- BILLEDET AF URENE ---------- */
@@ -405,7 +394,6 @@ margin: 0 auto 5% auto;
   grid-template-columns: 1fr auto;
   justify-content: space-between;
   align-items: center;
-  text-decoration: none;
   gap: 60px;
 }
 /* ---------- VENSTRE SIDE: tekst ---------- */
@@ -536,7 +524,6 @@ height: 60px;
 /* Stjernerne */
 
 .stars {
-    gap: 3px;
     margin-bottom: 16px;
 }
 
@@ -629,10 +616,6 @@ display: grid;
 /* -------------------- */
 /* MIDTEN */
 /* -------------------- */
-
-.footer-midt {
-  background-color: var(--darkgrey);
-}
 
 /* -------------------- */
 /* HØJRE SIDE */
